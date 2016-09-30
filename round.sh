@@ -24,7 +24,7 @@ do
     else
         file=/home/pl/pl/`echo $clubhome`_`echo $clubaway`
         if [ ! -f $file ]; then
-            echo "文件不存在，请先执行premeirleague.sh"
+            echo "文件不存在，请先执行premierleague.sh"
         else
             echo $a > $file
             echo $b >> $file
