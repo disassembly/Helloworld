@@ -5,5 +5,7 @@ This is a shell script to record and print premier league table.
 * Use table.sh to print the final premier league table.
 plsolution.py is a python script to print pltable, this script is from someone else on github, sorry to forget whose.
 * Usage: python plsolution.py plresult.txt. plresult.txt is the game results line by line with the following format: clubhome goalscored,clubaway goalscored, which could be generated from the round.sh (line 36).
+* python 163\_bs4.py and python pl\_bs4\_html.py to get pltable from website.
+
 
 ### By the way, which team do you think will own the title this season?
