@@ -41,6 +41,7 @@ for i in range(21):
 		print rank[i]+'\t'+club[i]+'\t\t'+points[i]+'\t'+rounds[i]+'\t'+wins[i]+'\t'+draws[i]+'\t'+loses[i]+'\t'+gs[i]+'\t'+gc[i]+'\t'+gd[i]
 	if len(club[i]) > 10:
 		print rank[i]+'\t'+club[i]+'\t'+points[i]+'\t'+rounds[i]+'\t'+wins[i]+'\t'+draws[i]+'\t'+loses[i]+'\t'+gs[i]+'\t'+gc[i]+'\t'+gd[i]
-
+update=tr[-2].td.string.encode('utf8')
+print update
 #for i in range(21):
 #	print club[i],len(club[i])
